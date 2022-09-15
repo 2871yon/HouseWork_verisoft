@@ -7,15 +7,8 @@ namespace HouseWork_Verisoft
     //paragraph3
     public class Circle:Shape ,GeometricObject
     {
-        //3.1
-        protected double radius;
-
-        //3.3
-        public double Radius
-        {
-            get { return radius; }
-            set { radius = value; }
-        }
+        //3.1+3.3
+        protected double radius { get; set; }
 
         //3.2
         public Circle()
