@@ -20,7 +20,7 @@ namespace HouseWork_Verisoft
         //3.2
         public Circle()
         {
-            Radius = 1.0;
+            radius = 1.0;
         }
         public Circle(double radius)
         {
